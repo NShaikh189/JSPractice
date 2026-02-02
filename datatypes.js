@@ -79,3 +79,7 @@ console.log(typeof vv); //undefined
 let qa = undefined;
 console.log(qa); //undefined
 console.log(typeof qa); // undefined
+
+let q=null;
+console.log(q);
+console.log(typeof q);
