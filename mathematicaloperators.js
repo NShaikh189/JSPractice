@@ -38,7 +38,8 @@ console.log(10+"10"); //1010
 console.log(10-"10"-10); //-10
 
 
-//unary plus: +
+//unary plus: + 
+/* unary operator used only with Strings to convert a String number to Number*/
 console.log("42"+5); //425
 console.log(+"42"+5);//47 (+ is equivalent to Interger.parseInt())
 
@@ -46,7 +47,7 @@ let billAmount = "1000";
 console.log(+billAmount + 100);
 
 
-//unray negation: - 
+//unray negation: - (convert to number)
 console.log(-"42"+5); // -42+5 = -37
 console.log(-42+"5"); // -42+5 = -425 concatenation
 console.log(-"42"+"5"); // -42+5 = -425 concatenation
@@ -59,3 +60,5 @@ console.log(-Number.parseInt(billAmount)+500); //-500
 let bmi = "20.010";
 console.log(Number.parseFloat(bmi)+100); //120.01
 console.log(-1 + "1");// -11
+
+console.log(4 - -2);
