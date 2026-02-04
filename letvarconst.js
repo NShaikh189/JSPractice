@@ -37,12 +37,17 @@ console.log(a); //undefined
 let total = 900;
 total = 970; //allowed
 console.log(total);
-
+total= "hundred";
+console.log(total);
 //Hoisting: but with error at Runtime
 //console.log(h); //ReferenceError: Cannot access 'h' before initialization
 let h=25;
 
 //console.log(i); //ReferenceError: i is not defined
+
+// var r = 10;
+// let r=20;
+// console.log(r); //SyntaxError: Identifier 'r' has already been declared
 
 //3. const: Pagetitle, url, days, month, baseurl
 const PI = 3.14;
@@ -57,7 +62,3 @@ console.log(PI);
 //Hoisting
 //console.log(val); //ReferenceError: Cannot access 'val' before initialization
 //const val =25;
-
-// var r = 10;
-// let r=20;
-// console.log(r); //SyntaxError: Identifier 'r' has already been declared
