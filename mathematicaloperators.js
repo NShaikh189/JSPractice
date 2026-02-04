@@ -51,6 +51,7 @@ console.log(+billAmount + 100);
 console.log(-"42"+5); // -42+5 = -37
 console.log(-42+"5"); // -42+5 = -425 concatenation
 console.log(-"42"+"5"); // -42+5 = -425 concatenation
+console.log(+"42" + +"5");//42 + 5 = 47
 
 console.log(-billAmount + 200); // -1000+200 = -800
 
@@ -62,3 +63,10 @@ console.log(Number.parseFloat(bmi)+100); //120.01
 console.log(-1 + "1");// -11
 
 console.log(4 - -2);
+
+console.log(String(900)+20);
+//clg => console.log();
+// install extension 
+// JavaScript (ES6) code snippets
+// code runner => faster execution
+// Enable Auto Save -> File -> AutoSave 
