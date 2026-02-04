@@ -63,16 +63,19 @@ console.log(Number.MIN_SAFE_INTEGER);
 //5. null: nothing/no value
 //size: might take 0 to 8 bytes depending on the engine(like v8 engine )
 let data = null;
+console.log("--"+data);
 console.log(typeof data); //object -- JS known existing bug
 
 //6. undefined:
 
 let v;
+console.log("--"+v)
 console.log(typeof v); //undefined
 //size: 0 to 8 bytes depends on the engine
 
 
 var vv;
+console.log("--"+vv);
 console.log(typeof vv); //undefined
 //size: 0 to 8 bytes depends on the engine
 
