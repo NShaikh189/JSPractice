@@ -42,3 +42,16 @@ let i = 11;
 let j = i++ + ++i;
 console.log(i);//13
 console.log(j);//24
+
+// let z=10;
+// let w = --(z++); //error
+// console.log(w);
+
+let z=10n;
+console.log(++z); //11n
+//let yy = 1N; N is considered as another variable
+let yy = 1;
+//console.log(z+yy); //TypeError: Cannot mix BigInt and other types
+
+let d=1.5, D = 2.5;
+console.log(d++ + ++D);
