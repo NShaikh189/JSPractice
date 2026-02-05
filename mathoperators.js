@@ -21,3 +21,18 @@ console.log(100/3); //33.33333333333336
 console.log(100%3);//1
 console.log("9"/"Hello");//NaN
 console.log("9"/"2"); //4.5
+let x=10n;
+let y=20n;
+let z = x + y;
+if(z===30)
+{
+    console.log("hello");
+}
+if(z===30n)
+{
+    console.log("hello with n");
+}
+if(z==30)
+{
+    console.log("Match");
+}
