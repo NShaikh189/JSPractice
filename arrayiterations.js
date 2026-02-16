@@ -30,5 +30,17 @@ for(let e of  empData)
         break;
 }
 
+console.log(empData.length);
+
+
+let emp = new Array(empData.length);
+let x=empData.length-1;
+for(let e of empData)
+{
+ emp[x] = e;
+ x--;
+}
+
+console.log(emp);
 
 
