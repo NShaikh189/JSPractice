@@ -23,9 +23,12 @@ console.log('-----------');
 let empData = ['nayum',30, 'SDET1','IBM',12.33, true];
 
 
-for(let e of empData)
+for(let e of  empData)
 {
     console.log(e);
     if(e==='SDET1')
         break;
 }
+
+
+
