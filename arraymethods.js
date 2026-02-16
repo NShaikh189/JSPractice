@@ -20,20 +20,21 @@ console.log(subarr);
 
 //splice(start index, number of values to be removed, replace with)
 let fruits = ['apple','grapes','banana','cherry'];
+console.log(typeof fruits); //object
 fruits.splice(0,1,'water melon');
-console.log(fruits);
+console.log(fruits); //[ 'water melon', 'grapes', 'banana', 'cherry' ]
 
 fruits.splice(0,2,'water melon');
-console.log(fruits);
+console.log(fruits);//[ 'water melon', 'banana', 'cherry' ]
 
 fruits.splice(0,2);
-console.log(fruits);
+console.log(fruits); //[ 'cherry' ]
 
 fruits.splice(0,2,'melon',"mangoe","kiwi");
-console.log(fruits);
+console.log(fruits);//[ 'melon', 'mangoe', 'kiwi' ]
 
 fruits.splice(2,0,['melon',"mangoe","kiwi"]);
-console.log(fruits);
+console.log(fruits);//[ 'melon', 'mangoe', [ 'melon', 'mangoe', 'kiwi' ], 'kiwi' ]
 
 let marks = [1,2,3,4,1,3,5,1,8,7];
 console.log(marks.indexOf(1));
