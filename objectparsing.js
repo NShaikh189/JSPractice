@@ -24,3 +24,33 @@ console.log(userJSON.p);
 
 let userObj = JSON.parse(userJSON);
 console.log(userObj);
+console.log(typeof userObj); //object
+
+let customer = 
+{ 
+    name: 'Tom',
+    age : 30,
+    city: 'LA',
+    isActive: true,
+    address: {
+        flat: 101,
+        zip: 411017,
+        lat: 10.34,
+        long: 11.22
+    },
+    devices: ['iphone','mouse','keyboard']
+};
+
+//JS object to JSON string
+let customerJson = JSON.stringify(customer,null,2);
+console.log(customerJson);
+
+//JSON string to JS Object
+let customerObject = JSON.parse(customerJson);
+console.log(customerObject);
+
+console.log(typeof customer);
+if(customer.address.long === customerObject.address.long)
+    console.log(true);
+else
+    console.log(false);
