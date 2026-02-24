@@ -62,7 +62,7 @@ let bmi = "20.010";
 console.log(Number.parseFloat(bmi)+100); //120.01
 console.log(-1 + "1");// -11
 
-console.log(4 - -2);
+console.log(4 - -2);//6
 
 console.log(String(900)+20);
 //clg => console.log();
