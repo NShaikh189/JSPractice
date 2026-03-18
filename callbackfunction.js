@@ -128,3 +128,34 @@ console.log(result);
 //OR
 result = myCalc(4,5, function(a,b){return a+b});
 console.log(result);
+
+
+//IIFE
+(
+    function(bnm){
+        console.log("Hello",bnm);
+    }
+)
+('chrome');
+
+//annonymous
+let fc = function(){console.log("Annonymopus");};
+fc();
+
+//arrrow func
+let f = (bnm)=>{console.log("Arrow func",bnm);}
+f('EDGE');
+
+//callback
+function printA(a,b,callback)
+{
+    console.log("Calling");
+    callback(a,b);
+};
+
+function printB(a,b)
+{
+    console.log("Sum",a+b);
+};
+
+printA(3,4,printB);
